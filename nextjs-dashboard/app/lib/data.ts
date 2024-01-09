@@ -1,3 +1,6 @@
+//this is the only file that needs to be imported in other components.
+// This file contains all the functions that fetch data from the database.
+
 import { sql } from '@vercel/postgres';
 import {
   CustomerField,
